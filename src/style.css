@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+}
+
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+    background: -webkit-radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fab.fa-youtube {
+    color: red;
+}
+
+.fab.fa-spotify {
+    color: #1db954;
+}
+
+.fas.fa-music {
+    color: #2bc5b4;
+}
+
+.fab.fa-amazon {
+    color: #ff9900;
+}
+
+/* Navbar */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 75px;
+    background-color: #7868e6;
+    color: #ffedda;
+    position: fixed;
+}
+
+.navbar-brand {
+    height: 100%;
+    position: relative;
+    top: 16.5px;
+}
+
+.spacer {
+    padding-top: 75px;
+}
+
+/* Social */
+.social {
+    padding-top: 75px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 70px;
+    background-color: #000000;
+}
+
+.social ul li {
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.social ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Songs */
+.songs {
+    background-color: antiquewhite;
+    min-height: 80vh;
+    padding: 20px 0;
+}
+
+.songs h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.songs-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.song {
+    display: flex;
+    max-width: 800px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgb(255, 243, 236);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.song:hover {
+    transform: scale(1.1);
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.song-info p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-name {
+    font-size: 22px;
+    font-family: "Roboto";
+}
+
+.song-artwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-artwork-img {
+    max-width: 250px;
+}
+
+.platform-buttons {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.platform-btn {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive - Mobile */
+@media (max-width: 600px) {
+    .song {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .song:hover {
+        transform: none;
+    }
+
+    .song-info {
+        margin-top: 5px;
+    }
+
+    .song-artwork-img {
+        max-width: 95%;
+    }
+}

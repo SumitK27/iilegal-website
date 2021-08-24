@@ -1,0 +1,91 @@
+{
+    "info": {
+        "siteName": "iiLegal",
+        "logo": "images/logo2.png",
+        "yt-logo": "fab fa-youtube",
+        "yt-link": "https://www.youtube.com/channel/UC3fgXp3QXdHm2WOlkBUCBfQ",
+        "email": "",
+        "instagram-logo": "fab fa-instagram",
+        "instagram-link": "https://www.instagram.com/iilegal.flp/"
+    },
+    "songs": [
+        {
+            "name": "Some Song",
+            "artwork": "images/artwork.png",
+            "artist": "Someone",
+            "mix-engineer": "Some other person",
+            "record-label": "Someone else",
+            "platforms": [
+                {
+                    "name": "Spotify",
+                    "class": "fab fa-spotify",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Amazon Music",
+                    "class": "fab fa-music",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "YT music",
+                    "class": "fab fa-music",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Jio Savan",
+                    "class": "",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "YouTube",
+                    "class": "fab fa-youtube",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Direct",
+                    "class": "fas fa-download",
+                    "link": "https://example.com/"
+                }
+            ]
+        },
+        {
+            "name": "Some other Song",
+            "artwork": "images/album.png",
+            "artist": "Someone",
+            "mix-engineer": "Some other person",
+            "record-label": "Someone else",
+            "platforms": [
+                {
+                    "name": "Spotify",
+                    "class": "fab fa-spotify",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Amazon Music",
+                    "class": "fab fa-music",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "YT music",
+                    "class": "fab fa-music",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Jio Savan",
+                    "class": "",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "YouTube",
+                    "class": "fab fa-youtube",
+                    "link": "https://example.com/"
+                },
+                {
+                    "name": "Direct",
+                    "class": "fas fa-download",
+                    "link": "https://example.com/"
+                }
+            ]
+        }
+    ]
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./style.css";
+import React, { useState, useEffect } from "react";
+import Footer from "./Components/Footer";
+import Navigation from "./Components/Navigation";
+import Social from "./Components/Social";
+import SongsContainer from "./Components/SongsContainer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [siteData, setSiteData] = useState("");
+    const [songsData, setSongsData] = useState("");
+
+    useEffect(() => {
+        getData();
+    }, [songsData]);
+
+    async function getData() {
+        const res = await fetch("data.json");
+        const json = await res.json();
+        setSiteData(json.info);
+        setSongsData(json.songs);
+    }
+    return (
+        <div className="App">
+            <Navigation logo={siteData.logo} />
+            <Social siteData={siteData} />
+            <SongsContainer songsData={songsData} />
+            <Footer siteName={siteData.siteName} />
+        </div>
+    );
 }
 
 export default App;
