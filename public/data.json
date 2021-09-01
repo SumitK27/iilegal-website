@@ -23,17 +23,17 @@
                 },
                 {
                     "name": "Amazon Music",
-                    "class": "fab fa-music",
+                    "class": "fab fa-amazon",
                     "link": "https://example.com/"
                 },
                 {
                     "name": "YT music",
-                    "class": "fab fa-music",
+                    "class": "fas fa-music",
                     "link": "https://example.com/"
                 },
                 {
                     "name": "Jio Savan",
-                    "class": "",
+                    "class": "fas fa-music",
                     "link": "https://example.com/"
                 },
                 {
@@ -50,7 +50,7 @@
         },
         {
             "name": "Some other Song",
-            "artwork": "images/album.png",
+            "artwork": "images/artwork.png",
             "artist": "Someone",
             "mix-engineer": "Some other person",
             "record-label": "Someone else",
@@ -62,17 +62,17 @@
                 },
                 {
                     "name": "Amazon Music",
-                    "class": "fab fa-music",
+                    "class": "fab fa-amazon",
                     "link": "https://example.com/"
                 },
                 {
                     "name": "YT music",
-                    "class": "fab fa-music",
+                    "class": "fas fa-music",
                     "link": "https://example.com/"
                 },
                 {
                     "name": "Jio Savan",
-                    "class": "",
+                    "class": "fas fa-music",
                     "link": "https://example.com/"
                 },
                 {

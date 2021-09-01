@@ -181,6 +181,10 @@
     text-align: center;
 }
 
+.platform-btn:last-child {
+    width: 100%;
+}
+
 /* footer */
 .footer {
     height: 100px;
