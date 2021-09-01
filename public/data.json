@@ -1,7 +1,7 @@
 {
     "info": {
         "siteName": "iiLegal",
-        "logo": "images/logo2.png",
+        "logo": "images/logo.png",
         "yt-logo": "fab fa-youtube",
         "yt-link": "https://www.youtube.com/channel/UC3fgXp3QXdHm2WOlkBUCBfQ",
         "email": "",
@@ -10,80 +10,80 @@
     },
     "songs": [
         {
-            "name": "Some Song",
-            "artwork": "images/artwork.png",
-            "artist": "Someone",
-            "mix-engineer": "Some other person",
-            "record-label": "Someone else",
+            "name": "Phir Milenge Hum",
+            "artwork": "https://i.scdn.co/image/ab67616d00001e02e2b1519db879e237e59bbcce",
+            "artist": "Aashish Singh",
+            "mix-engineer": "Sujalmixes",
+            "record-label": "Triny Records",
             "platforms": [
                 {
                     "name": "Spotify",
                     "class": "fab fa-spotify",
-                    "link": "https://example.com/"
+                    "link": "https://open.spotify.com/track/4uOjWEOOe1HqeGVe3NU1H7"
                 },
                 {
                     "name": "Amazon Music",
                     "class": "fab fa-amazon",
-                    "link": "https://example.com/"
+                    "link": "https://music.amazon.in/albums/B09BR5DHT4"
                 },
                 {
                     "name": "YT music",
                     "class": "fas fa-music",
-                    "link": "https://example.com/"
+                    "link": "https://music.youtube.com/watch?v=Od-JgglDd7Y&feature=share"
                 },
                 {
                     "name": "Jio Savan",
                     "class": "fas fa-music",
-                    "link": "https://example.com/"
+                    "link": "https://www.jiosaavn.com/song/phir-milenge-hum/IS4-CScAQQI"
                 },
                 {
                     "name": "YouTube",
                     "class": "fab fa-youtube",
-                    "link": "https://example.com/"
+                    "link": "https://www.youtube.com/watch?v=wOpIVnM3BJI"
                 },
                 {
                     "name": "Direct",
                     "class": "fas fa-download",
-                    "link": "https://example.com/"
+                    "link": "https://drive.google.com/file/d/1jnDH8YeHW132VE4eti0gffE6CwR7PlGB/view"
                 }
             ]
         },
         {
-            "name": "Some other Song",
-            "artwork": "images/artwork.png",
-            "artist": "Someone",
-            "mix-engineer": "Some other person",
-            "record-label": "Someone else",
+            "name": "Bhrashta Tantra",
+            "artwork": "https://i.scdn.co/image/ab67616d00001e028af4a87a5427b64fdf965802",
+            "artist": "Aiklavyaa",
+            "mix-engineer": "Sujalmixes",
+            "record-label": "Triny Records",
             "platforms": [
                 {
                     "name": "Spotify",
                     "class": "fab fa-spotify",
-                    "link": "https://example.com/"
+                    "link": "https://open.spotify.com/track/7ch3pMuRb9RfV89vxINe6z"
                 },
                 {
                     "name": "Amazon Music",
                     "class": "fab fa-amazon",
-                    "link": "https://example.com/"
+                    "link": "https://music.amazon.in/albums/B09DL9CV2F"
                 },
                 {
                     "name": "YT music",
                     "class": "fas fa-music",
-                    "link": "https://example.com/"
+                    "link": "https://music.youtube.com/watch?v=PHp8IPJRw6E&list=RDAMVMPHp8IPJRw6E"
                 },
                 {
                     "name": "Jio Savan",
                     "class": "fas fa-music",
-                    "link": "https://example.com/"
+                    "link": "https://www.jiosaavn.com/song/bhrashta-tantra/FCMpZhpXU0o"
                 },
                 {
                     "name": "YouTube",
                     "class": "fab fa-youtube",
-                    "link": "https://example.com/"
+                    "link": "https://www.youtube.com/watch?v=jU4sjUQ-vCg"
                 },
                 {
                     "name": "Direct",
                     "class": "fas fa-download",
-                    "link": "https://example.com/"
+                    "link": "https://drive.google.com/file/d/1Ll0Dmxo7wiLrQze-bYkaA81VcDs3fdBU/view"
                 }
             ]
         }
